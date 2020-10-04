@@ -54,7 +54,7 @@ col_2.id = 'contentRow';
 
 
 async function newsData(section) {
-    let url = 'https://api.nytimes.com/svc/topstories/v2/' + section + '.json?api-key=8GGvmXVEL8BMC8R8aKIrfgL028kA0Yxu'
+    let url = 'https://api.nytimes.com/svc/topstories/v2/' + section + '.json?api-key={your-api}'
 
     function sleep(ms) {
         return new Promise(resolve => setTimeout(resolve, ms));
